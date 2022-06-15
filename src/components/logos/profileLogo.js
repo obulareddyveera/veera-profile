@@ -4,7 +4,7 @@ import React from 'react';
 
 const ProfileLogo = () => {
     return (
-        <div className='flex text-white'>
+        <div className='flex text-white w-full'>
             <div className='m-[0.2rem]'>
                 <FontAwesomeIcon className='w-6 h-6' icon={faCode} />
             </div>
