@@ -23,7 +23,7 @@ const IntroBanner = () => {
                         Technically highly motivated web-application developer.
                     </p>
                     <p className='font-patrickHand'>
-                        I am skilled with Next.js, Gatsby, GraphQL server side frameworks, along with react.js, redux, mobx front end skills.
+                        I am skilled at Javascript with Node.js platform based Express.js, Next.js, Gatsby, GraphQL server side frameworks, along with HTML5, CSS3, bootstrap V4-5, materializedCSS, tailwindcss, react.js, redux, mobx front end skills.
                     </p>
                     <div className="flex flex-wrap justify-center gap-4 mt-8">
                         <button className='btn btn-primary btn-sm'>
