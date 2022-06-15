@@ -4,7 +4,15 @@ module.exports = {
         "./src/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                sans: ['Graphik', 'sans-serif'],
+                serif: ['Merriweather', 'serif'],
+                joan: ['Joan', 'serif'],
+                dancingScript: ['Dancing Script', 'cursive'],
+                patrickHand: ['Patrick Hand', 'cursive']
+            },
+        },
     },
-    plugins: [],
+    plugins: [require("daisyui")],
 }
