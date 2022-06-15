@@ -41,10 +41,10 @@ const GithubBanner = () => {
                     <div className="w-full grid grid-rows-2 grid-cols-1 md:grid-rows-1 md:grid-cols-2 gap-2">
                         <ProfileLogo />
                         <div className='flex justify-center md:justify-end w-full mb-2'>
-                            <a href="https://github.com/obulareddyveera" target="_blank" className="btn btn-circle btn-sm mr-1 ml-1">
+                            <a href="https://github.com/obulareddyveera" rel="noreferrer" target="_blank" className="btn btn-circle btn-sm mr-1 ml-1">
                                 <FontAwesomeIcon className='w-4 h-4' icon={faGithub} />
                             </a>
-                            <a href="https://twitter.com/ObulareddyVeera" target="_blank" className="btn btn-circle btn-sm mr-1 ml-1">
+                            <a href="https://twitter.com/ObulareddyVeera" rel="noreferrer" target="_blank" className="btn btn-circle btn-sm mr-1 ml-1">
                                 <FontAwesomeIcon className='w-4 h-4' icon={faTwitter} />
                             </a>
                         </div>
