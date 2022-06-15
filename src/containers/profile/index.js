@@ -5,7 +5,7 @@ import ProfileNav from '../../components/navs/profileNav';
 
 const Profile = () => {
     return (
-        <div class="w-screen h-screen">
+        <div className="w-screen h-screen">
             <ProfileNav />
             <IntroBanner />
         </div>
