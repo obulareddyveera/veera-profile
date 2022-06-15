@@ -1,6 +1,8 @@
 import React from 'react';
 import Image from 'next/image'
 import ProfileLogo from '../logos/profileLogo';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEllipsisVertical } from '@fortawesome/free-solid-svg-icons';
 
 const ProfileNav = () => {
     return (
@@ -12,7 +14,7 @@ const ProfileNav = () => {
                 <div className="dropdown dropdown-end">
                     <label tabIndex="0" className="btn btn-ghost btn-circle avatar">
                         <div className="w-10 rounded-full">
-                            <Image width={"100%"} height={"100%"} className="rounded-full" alt="Veera" src="/images/profile.jpeg" />
+                            <FontAwesomeIcon className='w-6 h-6 text-white' icon={faEllipsisVertical} />
                         </div>
                     </label>
                     <ul tabIndex="0" className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
