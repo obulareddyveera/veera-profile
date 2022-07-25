@@ -1,6 +1,7 @@
-import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const IntroBanner = () => {
@@ -26,9 +27,9 @@ const IntroBanner = () => {
                         I am skilled at Javascript with Node.js platform based Express.js, Next.js, Gatsby, GraphQL server side frameworks, along with HTML5, CSS3, bootstrap V4-5, materializedCSS, tailwindcss, react.js, redux, mobx front end skills.
                     </p>
                     <div className="flex flex-wrap justify-center gap-4 mt-8">
-                        <button className='btn btn-primary btn-sm'>
-                            <span> <FontAwesomeIcon className='w-3 h-3 mr-1' icon={faDownload} /> </span> Resume
-                        </button>
+                        <a href="/resume" className='btn btn-primary btn-sm'>
+                            <span> <FontAwesomeIcon className='w-3 h-3 mr-1' icon={faArrowRight} /> </span> Resume
+                        </a>
                     </div>
                 </div>
             </div>

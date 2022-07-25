@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image'
 import ProfileLogo from '../logos/profileLogo';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEllipsisVertical } from '@fortawesome/free-solid-svg-icons';
+import { faEllipsisVertical, faFilePdf } from '@fortawesome/free-solid-svg-icons';
 
 const ProfileNav = () => {
     return (
@@ -20,12 +20,13 @@ const ProfileNav = () => {
                     <ul tabIndex="0" className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
                         <li>
                             <a className="justify-between">
-                                Profile
-                                <span className="badge">New</span>
+                                Export Resume
+                                <span><FontAwesomeIcon className='w-4 h-4' icon={faFilePdf} /></span>
                             </a>
                         </li>
-                        <li><a>Settings</a></li>
-                        <li><a>Logout</a></li>
+                        <li>
+                            <a>Freelance Support</a>
+                        </li>
                     </ul>
                 </div>
             </div>

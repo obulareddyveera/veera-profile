@@ -2,9 +2,9 @@ import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
-const ProfileLogo = () => {
+const ProfileLogo = ({color="text-white"}) => {
     return (
-        <div className='flex text-white w-full'>
+        <div className={`flex t w-full ${color}`}>
             <div className='m-[0.2rem]'>
                 <FontAwesomeIcon className='w-6 h-6' icon={faCode} />
             </div>
