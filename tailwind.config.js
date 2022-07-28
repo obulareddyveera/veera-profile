@@ -7,10 +7,10 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ['Graphik', 'sans-serif'],
-                serif: ['Merriweather', 'serif'],
+                merriweather: ['Merriweather', 'serif'],
                 joan: ['Joan', 'serif'],
                 dancingScript: ['Dancing Script', 'cursive'],
-                patrickHand: ['Patrick Hand', 'cursive']
+                patrickHand: ['Patrick Hand', 'cursive'],
             },
         },
     },

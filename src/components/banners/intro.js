@@ -1,16 +1,17 @@
-import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const IntroBanner = () => {
     return (
         <section className="text-white bg-gray-900">
-            <div className="max-w-screen-xl px-4 py-32 mx-auto">
+            <div className="max-w-screen-xl px-4 py-4 mx-auto">
                 <div className="max-w-3xl mx-auto text-center">
                     <div className="avatar">
                         <div className="w-24 mask mask-hexagon">
-                            <Image width={"100%"} height={"100%"} alt="Veera" src="/images/profile.jpeg" />
+                            <img alt="Veera" src="/images/profile.jpeg" />
                         </div>
                     </div>
                     <h4 className="font-dancingScript text-3xl font-extrabold text-transparent sm:text-5xl bg-clip-text bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
@@ -25,11 +26,6 @@ const IntroBanner = () => {
                     <p className='font-patrickHand'>
                         I am skilled at Javascript with Node.js platform based Express.js, Next.js, Gatsby, GraphQL server side frameworks, along with HTML5, CSS3, bootstrap V4-5, materializedCSS, tailwindcss, react.js, redux, mobx front end skills.
                     </p>
-                    <div className="flex flex-wrap justify-center gap-4 mt-8">
-                        <button className='btn btn-primary btn-sm'>
-                            <span> <FontAwesomeIcon className='w-3 h-3 mr-1' icon={faDownload} /> </span> Resume
-                        </button>
-                    </div>
                 </div>
             </div>
         </section>
