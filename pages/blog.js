@@ -1,10 +1,15 @@
+import Head from 'next/head';
 import Blog from '../src/containers/blog'
 
 export default function Home(props) {
   return (
-    <div>
+    <>
+      <Head>
+        <title>Techie | Veera - Blog</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Blog data={props.mediumPostList} />
-    </div>
+    </>
   )
 }
 
@@ -17,6 +22,6 @@ export async function getServerSideProps(context) {
 
 
   return {
-    props: {mediumPostList: data}, // will be passed to the page component as props
+    props: { mediumPostList: data }, // will be passed to the page component as props
   }
 }
