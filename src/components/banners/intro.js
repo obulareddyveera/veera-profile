@@ -11,7 +11,7 @@ const IntroBanner = () => {
                 <div className="max-w-3xl mx-auto text-center">
                     <div className="avatar">
                         <div className="w-24 mask mask-hexagon">
-                            <Image width={"100%"} height={"100%"} alt="Veera" src="/images/profile.jpeg" />
+                            <img alt="Veera" src="/images/profile.jpeg" />
                         </div>
                     </div>
                     <h4 className="font-dancingScript text-3xl font-extrabold text-transparent sm:text-5xl bg-clip-text bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
