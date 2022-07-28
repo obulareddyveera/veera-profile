@@ -1,11 +1,12 @@
-/* eslint-disable react/jsx-no-target-blank */
-/* eslint-disable @next/next/no-img-element */
 import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const BlogCard = ({ link, thumbnail, title, categories }) => {
     return (
-        <a href={link} target="_blank" className="card card-compact w-full bg-base-100 shadow-xl">
-            <figure><img src={thumbnail} alt={title} /></figure>
+        <Link href={link} target="_blank" className="card card-compact w-full bg-base-100 shadow-xl">
+            <>
+            <figure><Image width={"100%"} height={"100%"} src={thumbnail} alt={title} /></figure>
             <div className="card-body">
                 <h2 className="card-title">{title}</h2>
 
@@ -17,7 +18,8 @@ const BlogCard = ({ link, thumbnail, title, categories }) => {
                     </div>
                 </div>)
             }
-        </a>
+            </>
+        </Link>
     )
 }
 
