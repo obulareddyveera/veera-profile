@@ -3,7 +3,7 @@ import { faSignIn } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
-const PersonalProjects = () => {
+const FinSlate = () => {
     return (
         <>
 
@@ -15,7 +15,7 @@ const PersonalProjects = () => {
                             <span className='m-2 text-xl font-merriweather text-gray-900'>FinSlate</span>
                             <div className="badge badge-secondary">NEW</div>
                         </h2>
-                        <p className='m-2 text-sm font-merriweather text-gray-900'>Slate your expenses by event/type/program and use, share, group your expenses.</p>
+                        <p className='m-2 text-sm font-merriweather text-gray-900'>Slate your expenses by event/type/program and use, share, group the slates.</p>
                     </div>
                     <div className='flex justify-end'>
                         <button className='btn btn-sm btn-circle m-2'>
@@ -37,6 +37,7 @@ const PersonalProjects = () => {
                             <div className="badge badge-primary m-1">Next.js</div>
                             <div className="badge badge-primary m-1">Express.js</div>
                             <div className="badge badge-primary m-1">Prisma (ORM)</div>
+                            <div className="badge badge-secondary m-1">planetscale</div>
                             <div className="badge badge-info m-1">React.js</div>
                             <div className="badge badge-info m-1">Redux</div>
                             <div className="badge badge-info m-1">tailwindCSS</div>
@@ -49,4 +50,4 @@ const PersonalProjects = () => {
     )
 }
 
-export default PersonalProjects;
+export default FinSlate;
