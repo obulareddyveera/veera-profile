@@ -11,13 +11,14 @@ import ProfileFooter from '../../components/footer/profileFooter';
 import ProfileNav from '../../components/navs/profileNav';
 import Progress from '../../components/rating/progress';
 import EducationSnap from '../../components/banners/educationSnap';
+import PersonalProjects from '../../components/banners/personalProjects';
 
 const Profile = () => {
     return (
         <div className="w-screen h-screen">
             <ProfileNav />
             <div className='flex flex-col justify-start items-start w-full bg-[#F2F2F2] border-t-gray-900 border-t-4' id="print_to_pdf">
-                <div className='grid grid-rows-1 grid-cols-12 border-b-2 border-b-white'>
+                <div className='grid grid-rows-1 grid-cols-12'>
                     <div className='col-span-12 md:col-start-1 md:col-end-4 bg-[#F7F7F7]'>
                         <ResumeHeader />
                         <Typography type={"h4"} text={Config.quickMe} />
@@ -41,6 +42,14 @@ const Profile = () => {
                             <EducationSnap />
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className='p-4'>
+                <Heading type={'h4'} title={"My Personal Projects"} icon={faBaseball} />
+            </div>
+            <div className='flex flex-col justify-start p-4'>
+                <div className='m-4 p-4'>
+                    <PersonalProjects />
                 </div>
             </div>
             <ProfileFooter />

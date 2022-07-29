@@ -44,7 +44,7 @@ const ResumeHeader = () => {
                             <span className='m-1'>Github</span>
                         </a>
                     </Link>
-                    <Link href="https://www.linkedin.com/in/veera-obulareddy-5955561a1/">
+                    <Link href="https://www.linkedin.com/in/veera-obulareddy-5955561a1">
                         <a target="_blank" className="btn btn-sm btn-info text-white">
                             <FontAwesomeIcon icon={faLinkedin} className="w-3 h-3 m-1" />
                             <span className='m-1'>Linked-In</span>
