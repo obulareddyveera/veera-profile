@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { faAndroid, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faSignIn } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -12,7 +13,7 @@ const HostelMate = () => {
 
                 <Link href={"https://hostelmate.vercel.app/"}>
                     <a target={"_blank"}>
-                        <figure><img src="images/finSlate.png" alt="FinSlate" /></figure>
+                        <figure><img src="images/hostelMateBanner.png" alt="FinSlate" /></figure>
                     </a>
                 </Link>
 
