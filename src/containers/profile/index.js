@@ -11,7 +11,7 @@ import ProfileFooter from '../../components/footer/profileFooter';
 import ProfileNav from '../../components/navs/profileNav';
 import Progress from '../../components/rating/progress';
 import EducationSnap from '../../components/banners/educationSnap';
-import FinSlate from '../../components/banners/finSlate';
+import HostelMate from '../../components/banners/hostelMate';
 
 const Profile = () => {
     return (
@@ -49,7 +49,7 @@ const Profile = () => {
             </div>
             <div className='flex flex-col justify-start p-4'>
                 <div className='m-4 p-4'>
-                    <FinSlate />
+                    <HostelMate />
                 </div>
             </div>
             <ProfileFooter />
