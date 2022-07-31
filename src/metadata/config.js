@@ -3,9 +3,9 @@ import { faCalendarCheck, faChessBoard, faCodeFork, faIndustry, faMoneyCheck } f
 
 const config = {
     introduction: [
-        `Innovative optimized solution seeker. Technically, highly motivated JavaScript Full Stack developer having 8+ years of experience as a 
-        Senior Software Engineer with a demonstrated history of working in the industrial and fintech industry. 
-        Skilled in Node.js, Next.js, Express.js, GraphQL, Prisma (ORM), React.js, Redux, HTML, CSS3, Bootstrap v3-4, Material-UI, and tailwindCSS.`,
+        `Innovative optimized solution seeker. Technically, a highly motivated JavaScript Full Stack developer has 8+ years of experience as a Senior Software Engineer 
+        with a demonstrated history of working in the industrial and fintech industries. Skilled in Node.js, Next.js, Express.js, GraphQL, Prisma (ORM), React.js, 
+        Redux, HTML, CSS3, Bootstrap v3-4, Material-UI, and tailwindCSS.`,
     ],
     quickMe: `Skilled and motivated Javascript Full-Stack developer with 8+ years of experience.`,
     location: 'Bangalore',
@@ -14,8 +14,7 @@ const config = {
         {
             name: 'Yodlee Infotech Private Limited',
             role: 'Member Of Technical Staff',
-            desc: `Envestnet | Yodlee, provides industry leading data aggregation and data analytics platform. 
-            I am working to core Engineering team, with tech stack of Next.js, React.js, Redux, SASS, and HTML5.`,
+            desc: `Envestnet | Yodlee, provides an industry leading data aggregation and data analytics platform. I am working for a core Engineering team, with the tech stack of Next.js, React.js, Redux, SASS, and HTML5.`,
             start: new Date(2020, 4, 0),
             end: null,
             icon: faMoneyCheck,
