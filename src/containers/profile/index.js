@@ -44,11 +44,11 @@ const Profile = () => {
                     </div>
                 </div>
             </div>
-            <div className='p-4'>
+            <div className='p-4 bg-[#F7F7F7]'>
                 <Heading type={'h4'} title={"My Personal Projects"} icon={faBaseball} />
             </div>
-            <div className='flex flex-col justify-start p-4'>
-                <div className='m-4 p-4'>
+            <div className='flex flex-col justify-start p-4 bg-[#F7F7F7]'>
+                <div className='p-4'>
                     <HostelMate />
                 </div>
             </div>
