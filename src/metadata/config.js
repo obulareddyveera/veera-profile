@@ -1,5 +1,5 @@
 import { faCodepen } from '@fortawesome/free-brands-svg-icons';
-import { faCalendarCheck, faChessBoard, faCodeFork, faIndustry, faMoneyCheck } from '@fortawesome/free-solid-svg-icons';
+import { faCalendarCheck, faChessBoard, faCodeFork, faIndustry, faMoneyCheck, faNetworkWired } from '@fortawesome/free-solid-svg-icons';
 
 const config = {
     introduction: [
@@ -12,11 +12,19 @@ const config = {
     address: 'B-405, Signature Classic Apartment, Sompura Village, Ambalipura-Sarjapura Road, Bangalore',
     workExp: [
         {
+            name: 'Tata Consultancy Services',
+            role: 'Technical Lead',
+            desc: `Tata Consultancy Services is an Indian multinational information technology services and consulting company, I am working for a Envestnet client, with the tech stack of Next.js, React.js, Redux, SASS, and HTML5.`,
+            start: new Date(2022, 10, 16),
+            end: null,
+            icon: faNetworkWired,
+        },
+        {
             name: 'Yodlee Infotech Private Limited',
             role: 'Member Of Technical Staff',
             desc: `Envestnet | Yodlee, provides an industry leading data aggregation and data analytics platform. I am working for a core Engineering team, with the tech stack of Next.js, React.js, Redux, SASS, and HTML5.`,
             start: new Date(2020, 4, 0),
-            end: null,
+            end: new Date(2022, 10, 14),
             icon: faMoneyCheck,
         },
         {

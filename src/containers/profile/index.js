@@ -11,11 +11,10 @@ import ProfileFooter from '../../components/footer/profileFooter';
 import ProfileNav from '../../components/navs/profileNav';
 import Progress from '../../components/rating/progress';
 import EducationSnap from '../../components/banners/educationSnap';
-import HostelMate from '../../components/banners/hostelMate';
 
 const Profile = () => {
     return (
-        <div className="w-screen h-screen">
+        <div className="w-screen h-screen dark:text-slate-800">
             <ProfileNav />
             <div className='flex flex-col justify-start items-start w-full bg-[#F2F2F2] border-t-gray-900 border-t-4' id="print_to_pdf">
                 <div className='grid grid-rows-1 grid-cols-12'>
@@ -36,20 +35,12 @@ const Profile = () => {
                     <div className='col-span-12 md:col-start-4 md:col-end-13 bg-[#F2F2F2]'>
                         <div className='flex flex-col m-4'>
                             <AboutMe />
-                            <Heading type={'h4'} title={"Work Experience"} icon={faBaseball} />
-                            <WorkSnap />
                             <Heading type={'h4'} title={"Education"} icon={faBaseball} />
                             <EducationSnap />
+                            <Heading type={'h4'} title={"Work Experience"} icon={faBaseball} />
+                            <WorkSnap />
                         </div>
                     </div>
-                </div>
-            </div>
-            <div className='p-4 bg-[#F7F7F7]'>
-                <Heading type={'h4'} title={"My Personal Projects"} icon={faBaseball} />
-            </div>
-            <div className='flex flex-col justify-start p-4 bg-[#F7F7F7]'>
-                <div className='p-4'>
-                    <HostelMate />
                 </div>
             </div>
             <ProfileFooter />

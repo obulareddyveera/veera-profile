@@ -51,29 +51,32 @@ const WorkSnap = () => {
                 Config && Config.workExp.map((entity, index) => {
 
                     return (
-                        <div key={`workSnap${index}`} className="grid grid-cols-12 gap-4 mt-4">
-                            <div className="col-start-1 col-span-9">
-                                <div className='grid grid-cols-1 grid-rows-1 md:grid-rows-2'>
-                                    <div className='flex'>
-                                        <button className='btn btn-sm btn-circle mr-1'>
-                                            <FontAwesomeIcon className='w-4 h-4' icon={entity.icon} />
-                                        </button>
-                                        <div className='flex flex-col md:flex-row justify-around mb-2'>
-                                            <div className='text-xl font-bold font-merriweather mt-1 ml-1'>{entity.name},</div>
-                                            <div className='text-sm font-bold font-merriweather mt-2 ml-2'>{entity.role}</div>
+                        <>
+                            <div key={`workSnap${index}`} className="grid grid-cols-12 gap-4 mt-4">
+                                <div className="col-start-1 col-span-9">
+                                    <div className='flex flex-col'>
+                                        <div className='flex'>
+                                            <button className='btn btn-sm btn-circle mr-1'>
+                                                <FontAwesomeIcon className='w-4 h-4' icon={entity.icon} />
+                                            </button>
+                                            <div className='flex flex-col md:flex-row justify-around mb-2'>
+                                                <div className='text-xl font-bold font-merriweather mt-1 ml-1'>{entity.name},</div>
+                                                <div className='text-sm font-bold font-merriweather mt-2 ml-2'>{entity.role}</div>
+                                            </div>
                                         </div>
+                                        <div className='text-sm font-merriweather mt-1 hidden md:flex'>{entity.desc}</div>
                                     </div>
-                                    <div className='text-sm font-merriweather mt-1 hidden md:flex'>{entity.desc}</div>
+                                </div>
+                                <div className="col-start-10 col-end-13">
+                                    <div className='grid grid-cols-1 grid-rows-3 md:grid-cols-3 md:grid-rows-1 md:gap-4'>
+                                        <div>{getMonthYear(entity.start)}</div>
+                                        <div>{getMonthYear(entity.end)}</div>
+                                        <div>{getTotalExpPerSlot(entity.start, entity.end)}</div>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="col-start-10 col-end-13">
-                                <div className='grid grid-cols-1 grid-rows-3 md:grid-cols-3 md:grid-rows-1 md:gap-4'>
-                                    <div>{getMonthYear(entity.start)}</div>
-                                    <div>{getMonthYear(entity.end)}</div>
-                                    <div>{getTotalExpPerSlot(entity.start, entity.end)}</div>
-                                </div>
-                            </div>
-                        </div>
+                            <div className="border-b-2 border-white w-[50vw] mt-4"></div>
+                        </>
                     )
                 })
             }

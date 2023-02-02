@@ -4,7 +4,7 @@ import React from 'react';
 
 const EducationSnap = () => {
     return (
-        <div className='grid grid-rows-2 grid-cols-1 md:grid-rows-1 md:grid-cols-2 m-4 p-4'>
+        <div className='grid grid-rows-1 grid-cols-1 md:grid-rows-1 md:grid-cols-1 m-4 p-4'>
             <div className='col-start-1 col-end-8 flex'>
                 <button className='btn btn-sm btn-circle ml-1 mr-1'>
                     <FontAwesomeIcon className='w-4 h-4' icon={faUniversity} />
