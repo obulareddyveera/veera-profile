@@ -91,16 +91,7 @@ const WorkSnap = () => {
                       </div>
                     </div>
                     <div className="text-sm font-merriweather mt-1 hidden md:flex">
-                      {entity.displayDesc ? (
-                        <div>{entity.about}</div>
-                      ) : (
-                        <ul className="list-disc m-4">
-                          {entity.desc &&
-                            entity.desc.map((entity) => {
-                              return <li className="p-2">{entity}</li>;
-                            })}
-                        </ul>
-                      )}
+                        {entity.about}
                     </div>
                   </div>
                 </div>
