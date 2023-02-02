@@ -3,9 +3,9 @@ import { faCalendarCheck, faChessBoard, faCodeFork, faIndustry, faMoneyCheck, fa
 
 const config = {
     introduction: [
-        `A technically highly motivated full stack web developer with 13+ years of hands on experience designing, developing and implementing applications and solutions using a range of technologies and programing languages. Seeking to leverage broad development experience and hands-on technical expertise in challenging roles as a full stack developer. `,
+        `A technically highly motivated full stack web developer with 12+ years of hands on experience designing, developing and implementing applications and solutions using a range of technologies and programing languages. Seeking to leverage broad development experience and hands-on technical expertise in challenging roles as a full stack developer. `,
     ],
-    quickMe: `Skilled and motivated Javascript Full-Stack developer with 8+ years of experience.`,
+    quickMe: `Skilled and motivated Javascript Full-Stack developer with 12+ years of experience.`,
     location: 'Bangalore',
     address: 'B-405, Signature Classic Apartment, Sompura Village, Ambalipura-Sarjapura Road, Bangalore',
     workExp: [
